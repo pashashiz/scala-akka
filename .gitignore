@@ -1,0 +1,17 @@
+#SBT
+dist/*
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+.history
+.cache
+.lib/
+
+# IDEA
+*.iml
+.idea
+#.idea/workspace.xml - remove # and delete .idea if it better suit your needs.
+*.versionsBackup
+target/
+**/vdr-lib/WEB-INF/
